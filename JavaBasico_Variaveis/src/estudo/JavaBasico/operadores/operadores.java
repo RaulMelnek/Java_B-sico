@@ -40,6 +40,19 @@ public class operadores {
                 numero= -numero;
             System.out.println(++numero);
         
+//Declara duas variáveis inteiras, a e b.
+//Atribui 5 para a.
+//Incrementa a antes de atribuir a b (pré-incremento), então a vira 6 e b recebe 6.
+//Usa o operador ternário para comparar se a é igual a b. 
+//Se for, resultado recebe "verdadeiro", senão "falso".
+//Imprime o resultado.
+            int a, b;
+            a=5;
+            b=6;
+
+            String resultado= a==b ? "verdadeiro" : "falso";
+
+            System.out.println(resultado);
                 }
         }
 
