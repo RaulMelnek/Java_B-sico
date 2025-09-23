@@ -39,5 +39,6 @@ public class JavaBasicoVariaveis {
     //constantes - sempre escritas em caixa alta e com 'final'
         final double PI = 3.14;
 
+        System.out.println("Constante PI: " + PI);
     }
 }
