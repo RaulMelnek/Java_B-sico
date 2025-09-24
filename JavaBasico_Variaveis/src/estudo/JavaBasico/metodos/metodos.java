@@ -13,11 +13,6 @@ public class metodos {
             //aqui não tem return pq é void
             //pois não retornara nenhum resultado
 
-            private void metodoPrivado(){
-            //este metodo so pode ser 
-            //chamado dentro desta classe
-            }
-
             public void gravarCiente (String nome, String cpf){
             //finalidade de gravar informações do cliente,
             //por que não criar um objeto
