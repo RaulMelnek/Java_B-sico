@@ -1,5 +1,5 @@
 package estudo.JavaBasico.metodos;
-
+/*
 public class metodos {
             public double somar(int num1, int num2){}
             //LÓGICA - FINALIDADE DO MÉTODO
@@ -28,3 +28,4 @@ public class metodos {
             //finalidade de gravar informações do cliente, 
             //passando um objeto cliente como parâmetro
         }
+*/
