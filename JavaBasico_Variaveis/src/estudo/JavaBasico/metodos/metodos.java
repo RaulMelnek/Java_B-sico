@@ -5,7 +5,7 @@ public class metodos {
             //LÓGICA - FINALIDADE DO MÉTODO
             // tem return pq não é void
             //pois retornara um resultado
-            retrn ...;
+            //retrn;
 
             public void imprimir (String texto){
             }
