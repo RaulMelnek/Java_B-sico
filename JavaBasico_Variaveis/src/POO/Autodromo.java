@@ -3,14 +3,23 @@ package POO;
 public class Autodromo {
     public static void main(String[] args) {
         carro Jeep= new carro();
-        Jeep.setChassi("Chassi: 12347");
+        
     
 
         moto Honda= new moto();
         Honda.setChassi("Chassi: 12345");
     
 
-        veiculo coringa= Honda;
-        coringa.ligar();
+        String veiculoEscolhido= "carro";
+            if (veiculoEscolhido.equals("carro")){
+            System.out.println(Jeep.getChassi());
+            Jeep.ligar();
+        } else if (veiculoEscolhido.equals("moto")){
+            System.out.println(Honda.getChassi());
+            Honda.ligar();
+        } else {
+            System.out.println("Veículo não encontrado");
+        }
+       
     }
 }
